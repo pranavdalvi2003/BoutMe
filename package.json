@@ -17,6 +17,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.2",
     "imagemin-jpeg-recompress": "^6.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
     "imagemin-pngquant": "^7.0.0"
   },
   "browserslist": [
