@@ -1,6 +1,7 @@
 // node.js Packages / Dependencies
 const gulp          = require('gulp');
-const sass          = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
+
 const uglify        = require('gulp-uglify');
 const rename        = require('gulp-rename');
 const concat        = require('gulp-concat');
@@ -10,7 +11,8 @@ const pngQuint      = require('imagemin-pngquant');
 const browserSync   = require('browser-sync').create();
 const autoprefixer  = require('gulp-autoprefixer');
 const jpgRecompress = require('imagemin-jpeg-recompress'); 
-const clean         = require('gulp-clean');
+const del = require('del');
+
 
 
 // Paths
@@ -86,9 +88,9 @@ gulp.task('vendors', function(){
 
 // clean dist
 gulp.task('clean', function () {
-    return gulp.src(paths.dist.root)
-        .pipe(clean());
+    return del([paths.dist.root]);
 });
+
 
 // Prepare all assets for production
 gulp.task('build', gulp.series('sass', 'css', 'js', 'vendors', 'img'));
