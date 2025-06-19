@@ -12,23 +12,24 @@
     />
     <meta name="author" content="Devcrud" />
     <title>BoutMe</title>
+    <!-- AOS CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <link rel="icon" type="image/svg" href="assets/imgs/logo.svg" />
     <!-- Font icons -->
     <link
       rel="stylesheet"
       href="assets/vendors/themify-icons/css/themify-icons.css"
     />
-    <!-- Themify Icons -->
-    <link
-      rel="stylesheet"
-      href="assets/vendors/themify-icons/css/themify-icons.css"
-    />
-
     <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -37,7 +38,7 @@
     <link rel="stylesheet" href="assets/css/steller.css" />
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <!-- Page navigation -->
+    <!-- Navigation -->
     <nav
       class="navbar navbar-expand-lg navbar-light fixed-top"
       data-spy="affix"
@@ -52,9 +53,6 @@
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -80,13 +78,12 @@
         </div>
       </div>
     </nav>
-    <!-- End of page navigation -->
 
-    <!-- Page Header -->
+    <!-- Header -->
     <header class="header" id="home">
       <div class="container">
         <div class="img-holder">
-          <img src="assets\imgs\bgimg.png" alt="Profile" />
+          <img src="assets/imgs/bgimg.png" alt="Profile" />
         </div>
         <div class="infos">
           <h6 class="subtitle">Hello, I'm</h6>
@@ -112,7 +109,7 @@
               ><i class="fab fa-instagram"></i
             ></a>
             <a class="social-item" href="mailto:pranavdalvi2003@gmail.com"
-              ><i class="fab fa-solid fa-envelope"></i
+              ><i class="fas fa-envelope"></i
             ></a>
           </div>
           <button class="btn btn-dark rounded mt-3">
@@ -125,13 +122,12 @@
           </button>
         </div>
         <div class="img-holder">
-          <img src="assets/imgs/man.svg" alt="Profile" />
+          <img src="assets/imgs/man.svg" alt="Profile Illustration" />
         </div>
       </div>
     </header>
-    <!-- End of Page Header -->
 
-    <!-- About section -->
+    <!-- About -->
     <section id="about" class="section mt-3">
       <div class="container mt-5 text-center">
         <h1 class="subtitle text-center mt-5 pt-5">About</h1>
@@ -151,7 +147,7 @@
               to various projects and internships. With a passion for learning
               and innovation, I continuously work on improving systems and
               enhancing user experiences. My expertise spans multiple domains,
-              and I actively engages in developing solutions that make a
+              and I actively engage in developing solutions that make a
               meaningful impact.
             </p>
           </div>
@@ -159,7 +155,7 @@
       </div>
     </section>
 
-    <!-- Skills section -->
+    <!-- Skills -->
     <section class="section">
       <div class="container text-center">
         <h6 class="subtitle">Skills</h6>
@@ -199,8 +195,6 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
           <div class="col-sm-6 col-md-3 mb-4">
             <div class="custom-card card border">
               <div class="card-body">
@@ -237,6 +231,7 @@
       </div>
     </section>
 
+    <!-- Resume -->
     <section id="resume" class="section">
       <div class="container text-center">
         <h6 class="subtitle mt-5 pt-5">Resume</h6>
@@ -244,9 +239,7 @@
           I specialize in UI/UX design, web development, and data science,
           creating user-friendly and efficient solutions.
         </p>
-
         <div class="resume-grid">
-          <!-- Experience Section -->
           <div class="resume-card">
             <i class="fas fa-briefcase icon"></i>
             <h3 class="resume-title">Experience</h3>
@@ -282,8 +275,6 @@
               </ul>
             </div>
           </div>
-
-          <!-- Education Section -->
           <div class="resume-card">
             <i class="fas fa-graduation-cap icon"></i>
             <h3 class="resume-title">Education</h3>
@@ -317,7 +308,6 @@
         </div>
       </div>
     </section>
-
     <section id="projects" class="section">
       <div class="container text-center">
         <h6 class="subtitle mt-5 pt-5">Projects</h6>
@@ -327,117 +317,55 @@
         </p>
         <div class="row portfolio-container">
           <!-- Project 1 -->
-          <div
-            class="col-md-4 portfolio-item aos-init aos-animate"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <div class="col-md-4 portfolio-item">
             <div class="portfolio-wrap">
-              <img
-                src="assets/imgs/pic.jpeg"
-                class="img-fluid"
-                alt="E-Commerce"
-              />
+              <img src="assets/imgs/pic.jpeg" class="img-fluid" alt="NexBuy" />
               <div class="portfolio-info">
-                <h4>E-Commerce Application</h4>
-                <p>Web App</p>
-                <!-- <div class="portfolio-links">
-                  <a
-                    href="https://example.com/project1"
-                    title="View Website"
-                    target="_blank"
-                    ><i class="fa-solid fa-plus"></i
-                  ></a>
-                </div> -->
+                <h4>NexBuy</h4>
+                <p>E-Commerce Web App</p>
               </div>
             </div>
           </div>
 
           <!-- Project 2 -->
-          <div
-            class="col-md-4 portfolio-item aos-init aos-animate"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <div class="col-md-4 portfolio-item">
             <div class="portfolio-wrap">
-              <img
-                src="assets/imgs/pic.jpeg"
-                class="img-fluid"
-                alt="Doctor Appointment System"
-              />
+              <img src="assets/imgs/pic.jpeg" class="img-fluid" alt="Clinix" />
               <div class="portfolio-info">
-                <h4>Doctor Appointment System</h4>
-                <p>Website</p>
-                <!-- <div class="portfolio-links">
-                  <a
-                    href="https://example.com/project2"
-                    title="View Website"
-                    target="_blank"
-                    ><i class="fa-solid fa-plus"></i
-                  ></a>
-                </div> -->
+                <h4>Clinix</h4>
+                <p>Doctor Appointment System Website</p>
               </div>
             </div>
           </div>
 
           <!-- Project 3 -->
-          <div
-            class="col-md-4 portfolio-item aos-init aos-animate"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <div class="col-md-4 portfolio-item">
             <div class="portfolio-wrap">
               <img
                 src="assets/imgs/pic.jpeg"
                 class="img-fluid"
-                alt="Blood Bank Management App"
+                alt="BloodSync"
               />
               <div class="portfolio-info">
-                <h4>Blood Bank Management App</h4>
-                <p>Web App</p>
-                <!-- <div class="portfolio-links">
-                  <a
-                    href="https://example.com/project3"
-                    title="View Website"
-                    target="_blank"
-                    ><i class="fa-solid fa-plus"></i
-                  ></a>
-                </div> -->
+                <h4>BloodSync</h4>
+                <p>Blood Bank Management Web App</p>
               </div>
             </div>
           </div>
 
-          <div
-            class="col-md-4 portfolio-item aos-init aos-animate"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <!-- Project 4 -->
+          <div class="col-md-4 portfolio-item">
             <div class="portfolio-wrap">
-              <img
-                src="assets/imgs/pic.jpeg"
-                class="img-fluid"
-                alt="Job Portal"
-              />
+              <img src="assets/imgs/pic.jpeg" class="img-fluid" alt="Workly" />
               <div class="portfolio-info">
-                <h4>Job Portal</h4>
-                <p>Web App</p>
-                <!-- <div class="portfolio-links">
-                  <a
-                    href="https://example.com/project3"
-                    title="View Website"
-                    target="_blank"
-                    ><i class="fa-solid fa-plus"></i
-                  ></a>
-                </div> -->
+                <h4>Workly</h4>
+                <p>Job Portal Web App</p>
               </div>
             </div>
           </div>
 
-          <div
-            class="col-md-4 portfolio-item aos-init aos-animate"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <!-- Project 5 -->
+          <div class="col-md-4 portfolio-item">
             <div class="portfolio-wrap">
               <img
                 src="assets/imgs/expenza.png"
@@ -446,50 +374,37 @@
               />
               <div class="portfolio-info">
                 <h4>Expenza</h4>
-                <p>Expense Management System WebApp</p>
+                <p>Expense Management System Web App</p>
                 <div class="portfolio-links">
                   <a
                     href="https://expenzatracker.vercel.app/"
                     title="View Website"
                     target="_blank"
-                    ><i class="fa-solid fa-plus"></i
-                  ></a>
+                  >
+                    <i class="fa-solid fa-plus"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div
-            class="col-md-4 portfolio-item aos-init aos-animate"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <!-- Project 6 -->
+          <div class="col-md-4 portfolio-item">
             <div class="portfolio-wrap">
               <img
                 src="assets/imgs/pic.jpeg"
                 class="img-fluid"
-                alt="House Marketplace App"
+                alt="HomeHive"
               />
               <div class="portfolio-info">
-                <h4>House Marketplace App</h4>
-                <p>Web App</p>
-                <!-- <div class="portfolio-links">
-                  <a
-                    href="https://example.com/project3"
-                    title="View Website"
-                    target="_blank"
-                    ><i class="fa-solid fa-plus"></i
-                  ></a>
-                </div> -->
+                <h4>HomeHive</h4>
+                <p>House Marketplace Web App</p>
               </div>
             </div>
           </div>
-
-          <!-- Add more projects here -->
         </div>
       </div>
     </section>
-
     <section id="research" class="section">
       <div class="container text-center">
         <h6 class="subtitle mt-5 pt-5">Research</h6>
@@ -497,16 +412,16 @@
           Contribution in the field of AI and machine learning.
         </p>
         <div class="row align-items-center">
-          <!-- Image Section -->
+          <!-- Image -->
           <div class="col-md-4 text-center">
             <img
               src="assets/imgs/print.jpg"
               alt="Research Paper"
               class="img-fluid research-img"
-              style="max-width: 100%; width: 300px; height: 1000px"
+              style="max-width: 100%; width: 300px; height: auto"
             />
           </div>
-          <!-- Research Details -->
+          <!-- Details -->
           <div class="col-md-8">
             <div class="research-card p-4">
               <h4 class="research-title">
@@ -515,15 +430,13 @@
               </h4>
               <p class="research-info">
                 Grenze International Journal of Engineering and Technology, Vol.
-                10, No. 2, 2024<br />
+                10, No. 2, 2024
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Contact Section -->
     <section id="contact" class="position-relative section">
       <div class="container text-center">
         <h6 class="subtitle mt-5 pt-5">Contact</h6>
@@ -575,21 +488,21 @@
           </div>
           <div class="contact-infos">
             <div class="item">
-              <i class="fab fa-solid fa-map-marker"></i>
+              <i class="fas fa-map-marker-alt"></i>
               <div>
                 <h5>Location</h5>
                 <p>A1-302, Aranyeshwar Park Phase 2, Parvati, Pune - 9</p>
               </div>
             </div>
             <div class="item">
-              <i class="fab fa-solid fa-phone"></i>
+              <i class="fas fa-phone"></i>
               <div>
                 <h5>Phone Number</h5>
                 <p>+91 98900 73179</p>
               </div>
             </div>
             <div class="item">
-              <i class="fab fa-solid fa-envelope"></i>
+              <i class="fas fa-envelope"></i>
               <div>
                 <h5>Email Address</h5>
                 <p>pranavdalvi2003@gmail.com</p>
@@ -599,22 +512,22 @@
         </div>
       </div>
       <div id="map">
-        <iframe src="https://snazzymaps.com/embed/61257"></iframe>
+        <iframe
+          src="https://snazzymaps.com/embed/61257"
+          style="border: none; width: 100%; height: 300px"
+        ></iframe>
       </div>
     </section>
-
-    <!-- Page Footer -->
     <footer class="page-footer">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-sm-6">
             <p>
-              Copyright
+              &copy;
               <script>
                 document.write(new Date().getFullYear());
               </script>
-              &copy;
-              <a href="" target="_blank">Pranav</a>
+              <a href="#">Pranav</a>
             </p>
           </div>
           <div class="col-sm-6">
@@ -638,7 +551,7 @@
                 ><i class="fab fa-instagram"></i
               ></a>
               <a class="social-item" href="mailto:pranavdalvi2003@gmail.com"
-                ><i class="fab fa-solid fa-envelope"></i
+                ><i class="fas fa-envelope"></i
               ></a>
             </div>
           </div>
@@ -646,12 +559,10 @@
       </div>
     </footer>
 
-    <!-- Core scripts -->
+    <!-- Scripts -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
-    <!-- Bootstrap 3 affix -->
     <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
-    <!-- Steller js -->
     <script src="assets/js/steller.js"></script>
   </body>
 </html>
