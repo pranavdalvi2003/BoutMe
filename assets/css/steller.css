@@ -112,7 +112,6 @@ section {
 .portfolio-wrap {
   position: relative;
   overflow: hidden;
-  border-radius: 8px;
 }
 
 .portfolio-wrap img {
