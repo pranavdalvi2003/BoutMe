@@ -10004,6 +10004,7 @@ const rc =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALESURBVHgB7Zk9cuIwFMefbYp0a6DZ0jtAvZTpFm4AJ1i2261Cuu3inIC9QUi3Zcp0ITcgZQaYMRcAp+Yr/5fIHtlJJpEiZciM/zMeyfryD/np6Vk4ZFiNRqO52+2ucMWu63Ynk8mYDMolwwLoCRLfcZwA6REZlnFgyE8ygA/IsGwAW1UBbFsFsG0VwLZVANtWAWxbBbBtFcC29emASyqNgyDwS6VSjz9/ZrPZkN6her3e1xlHaYY9zxsgGeDz56xWq52RpkTfh3EAHqr0VQLGA3wp38PDTkhR3If7SkVNUpAS8Hq9PkYSS0WhCrRoGyb3MIkIY/ZJQUrAEYTZadNT6FcfmoflMfgYgMckBSl7CXHO0M0VD2CXP1/qI+pCuQyz+0vnzMIjDS0Wi6hcLs8x252kjPOVSuUa2RauQBRH1Wr1Bukl5WDhHf6ThrSAWcvlcgxARwAm6gDmIFmcyHPyG9eB1OYUsP9IUw6Olo62220f9jRarVbHMKlYZQDhlt668E6n02lIisIzrujxgObcwyxdYka+4qaJ9JZnTmUwmMcI5lFG30OyAAv772Dsv8gy46FL0tGSrvCKedc6f6me63RgWXjzMp9vLJYAdA/Jc29nLOqMyGjwg02AfXQKLTaGNhmUUWBesADssgnA7oabzaatuohfUyZak2MFXYmdq0eGhB+fYXL5tUn37wa2IDngijImkf81+yCZ6eFvCFCni0Qc8++VwPRduo3ZJOZSwQ/aP6XxMlhveIYvpEr/LaHiR4nDBsquqxEHL7xXL6UKdkO8jWoHKCbEsJjRkAQXOwdsQN8cUckflplvNG4g7DvCdYcrxr1Rn5p7XoDkCz2Gpi3KeSwRkg6dpEAx6vpopYFTGg9z1IVge45f0jSxgRhSDJ4/cvzsPNeKQzokLeFSfPaFtl1esoGxGbLnYmeAWR3l290Dvv43W3IHdnwAAAAASUVORK5CYII=",
   ap = () =>
     a.jsxs("div", {
+      id: "home",
       className:
         "w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-12",
       children: [
@@ -10198,8 +10199,7 @@ const rc =
                 ],
               }),
               a.jsxs("div", {
-                className:
-                  "flex items-center gap-8 newclass",
+                className: "flex items-center gap-8 newclass",
                 children: [
                   a.jsxs("button", {
                     onClick: o,
