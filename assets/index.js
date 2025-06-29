@@ -9747,7 +9747,7 @@ const rc =
                 a.jsx("p", {
                   className:
                     "text-md text-gray-600 leading-5 dark:text-white/80",
-                  children: "Pune Institute of Information Technology",
+                  children: "Pune Institute of Computer Technology",
                 }),
                 a.jsx("p", {
                   className:
@@ -9916,7 +9916,7 @@ const rc =
                         }),
                         a.jsx("p", {
                           className: "text-gray-600 text-sm dark:text-white/80",
-                          children: "B.E. in Information Technology",
+                          children: "B.E. (Information Technology)",
                         }),
                       ],
                     }),
