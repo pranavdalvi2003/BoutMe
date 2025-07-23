@@ -9522,12 +9522,12 @@ const rc =
                     children: [
                       a.jsx("h2", {
                         className: "font-semibold",
-                        children: "Chat App",
+                        children: "NexTalk",
                       }),
                     ],
                   }),
                   a.jsx("a", {
-                    href: "https://expenzatracker.vercel.app/",
+                    href: "https://nextalkchatapp.vercel.app/",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     children: a.jsx("div", {
@@ -9543,38 +9543,38 @@ const rc =
                 ],
               }),
             }),
-            a.jsx("div", {
-              className:
-                "aspect-square bg-[url('./assets/work-2.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group",
-              children: a.jsxs("div", {
-                className:
-                  "bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7",
-                children: [
-                  a.jsxs("div", {
-                    children: [
-                      a.jsx("h2", {
-                        className: "font-semibold",
-                        children: "Ecommerce App",
-                      }),
-                    ],
-                  }),
-                  a.jsx("a", {
-                    href: "https://expenzatracker.vercel.app/",
-                    target: "_blank",
-                    rel: "noopener noreferrer",
-                    children: a.jsx("div", {
-                      className:
-                        "border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition",
-                      children: a.jsx("img", {
-                        src: vr,
-                        alt: "",
-                        className: "w-5",
-                      }),
-                    }),
-                  }),
-                ],
-              }),
-            }),
+            // a.jsx("div", {
+            //   className:
+            //     "aspect-square bg-[url('./assets/work-2.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group",
+            //   children: a.jsxs("div", {
+            //     className:
+            //       "bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7",
+            //     children: [
+            //       a.jsxs("div", {
+            //         children: [
+            //           a.jsx("h2", {
+            //             className: "font-semibold",
+            //             children: "Ecommerce App",
+            //           }),
+            //         ],
+            //       }),
+            //       a.jsx("a", {
+            //         href: "https://expenzatracker.vercel.app/",
+            //         target: "_blank",
+            //         rel: "noopener noreferrer",
+            //         children: a.jsx("div", {
+            //           className:
+            //             "border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition",
+            //           children: a.jsx("img", {
+            //             src: vr,
+            //             alt: "",
+            //             className: "w-5",
+            //           }),
+            //         }),
+            //       }),
+            //     ],
+            //   }),
+            // }),
             a.jsx("div", {
               className:
                 "aspect-square bg-[url('./assets/work-3.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group",
@@ -9586,12 +9586,12 @@ const rc =
                     children: [
                       a.jsx("h2", {
                         className: "font-semibold",
-                        children: "Job Portal",
+                        children: "Workly",
                       }),
                     ],
                   }),
                   a.jsx("a", {
-                    href: "https://expenzatracker.vercel.app/",
+                    href: "https://worklyjobportal.vercel.app/",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     children: a.jsx("div", {
@@ -9618,12 +9618,12 @@ const rc =
                     children: [
                       a.jsx("h2", {
                         className: "font-semibold",
-                        children: "Doctor Appointment Booking App",
+                        children: "Clinix",
                       }),
                     ],
                   }),
                   a.jsx("a", {
-                    href: "https://expenzatracker.vercel.app/",
+                    href: "https://clinixdoctorappointmentsystem.vercel.app/",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     children: a.jsx("div", {
