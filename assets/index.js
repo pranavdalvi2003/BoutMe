@@ -9687,6 +9687,21 @@ const rc =
                 a.jsx("p", {
                   className:
                     "text-md text-gray-600 leading-5 dark:text-white/80",
+                  children: "RWTH International Academy Office",
+                }),
+                a.jsx("p", {
+                  className:
+                    "text-sm italic text-gray-600 leading-5 dark:text-white/80",
+                  children: "Aug. '25 - Jan. '26",
+                }),
+                a.jsx("p", {
+                  className:
+                    "text-sm text-gray-600 leading-5 dark:text-white/80",
+                  children: "🔹",
+                }),
+                a.jsx("p", {
+                  className:
+                    "text-md text-gray-600 leading-5 dark:text-white/80",
                   children: "FinIQ",
                 }),
                 a.jsx("p", {
@@ -9743,6 +9758,21 @@ const rc =
                 a.jsx("h3", {
                   className: "text-lg my-4 text-gray-700 dark:text-white",
                   children: "Education",
+                }),
+                a.jsx("p", {
+                  className:
+                    "text-md text-gray-600 leading-5 dark:text-white/80",
+                  children: "German Engineering College",
+                }),
+                a.jsx("p", {
+                  className:
+                    "text-sm italic text-gray-600 leading-5 dark:text-white/80",
+                  children: "Jul. '25 - Dec. '25",
+                }),
+                a.jsx("p", {
+                  className:
+                    "text-sm text-gray-600 leading-5 dark:text-white/80",
+                  children: "🔹",
                 }),
                 a.jsx("p", {
                   className:
