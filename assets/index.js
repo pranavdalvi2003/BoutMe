@@ -9692,7 +9692,7 @@ const rc =
                 a.jsx("p", {
                   className:
                     "text-sm italic text-gray-600 leading-5 dark:text-white/80",
-                  children: "Aug. '25 - Jan. '26",
+                  children: "Aug. '25 - Jul. '26",
                 }),
                 a.jsx("p", {
                   className:
@@ -9767,7 +9767,7 @@ const rc =
                 a.jsx("p", {
                   className:
                     "text-sm italic text-gray-600 leading-5 dark:text-white/80",
-                  children: "Jul. '25 - Dec. '25",
+                  children: "Jul. '25 - Jan. '25",
                 }),
                 a.jsx("p", {
                   className:
