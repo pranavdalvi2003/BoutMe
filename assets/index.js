@@ -9452,7 +9452,7 @@ const rc =
             "text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6",
           children: [
             a.jsx("p", {
-              children: "© 2025 Pranav Dalvi. All rights reserved.",
+              children: "© 2026 Pranav Dalvi. All rights reserved.",
             }),
             a.jsxs("ul", {
               className: "flex items-center gap-10 justify-center mt-4 sm:mt-0",
@@ -9767,7 +9767,7 @@ const rc =
                 a.jsx("p", {
                   className:
                     "text-sm italic text-gray-600 leading-5 dark:text-white/80",
-                  children: "Jul. '25 - Jan. '25",
+                  children: "Jul. '25 - Dec. '25",
                 }),
                 a.jsx("p", {
                   className:
